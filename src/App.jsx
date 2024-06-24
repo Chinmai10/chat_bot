@@ -13,7 +13,7 @@ function App() {
     setAnswer("loading ... ") ;
     const response = await axios({
 
-      url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyD8a1H1LfKfE3OUa1iGmdVEpur7iuTxv0U",
+      url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=",
       method: "post",
       data: { contents: [{ parts: [{ text: question }] }] },
     })
